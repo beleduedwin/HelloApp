@@ -54,7 +54,7 @@ public class SimpleHelloServlet extends HttpServlet {
 
         int hour = time.getHour();
 
-        if (hour >= 10 && hour <= 11) {
+        if (hour >= 01 && hour <= 11) {
 
             request.setAttribute("time", "Good morning " );
 
